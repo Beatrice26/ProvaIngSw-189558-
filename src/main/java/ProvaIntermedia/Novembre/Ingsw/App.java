@@ -18,6 +18,7 @@ public class App
     public static void main( String[] args )
     {
     	DateTime time = null;
+    	System.out.println(time.getDayOfMonth());
     	System.out.println(time.getHourOfDay());
     	
     	MyListUtil list= new MyListUtil();
@@ -28,8 +29,6 @@ public class App
         copia.add(5);  
    		
         System.out.println(list.Crescente(copia)); 
-        
         System.out.println(list.Decrescente(copia));
-        System.out.println( );
     }
 }

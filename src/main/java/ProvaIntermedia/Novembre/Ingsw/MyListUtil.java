@@ -3,6 +3,7 @@ package ProvaIntermedia.Novembre.Ingsw;
 import com.sun.tools.javac.util.List;
 
 public class MyListUtil {
+	
 	public static List<Integer> Crescente(List<Integer> list) {
 		boolean ok;
 		List<Integer> copia = null;
@@ -18,8 +19,7 @@ public class MyListUtil {
 					ok=true;
 				}
 			}
-			if(!ok) {
-				
+			if(!ok) {				
 				break;
 			}
 		}
